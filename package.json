@@ -1,0 +1,20 @@
+{
+  "name": "weatherapp",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Weather App to practice using API's",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clarkjr2016/weatherApp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/clarkjr2016/weatherApp/issues"
+  },
+  "homepage": "https://github.com/clarkjr2016/weatherApp#readme"
+}
