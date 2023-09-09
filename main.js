@@ -1,3 +1,3 @@
-import { callAPI } from "./functions/apiCall";
+import { callCurrentWeather, weatherStatus } from "./functions/apiCall.js"; // Make sure to add the .js next time lol
 
-callAPI();
+weatherStatus("Atlanta, GA");
