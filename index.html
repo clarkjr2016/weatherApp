@@ -4,8 +4,24 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Weather App</title>
-    <link type="style" href="style.css" />
+    <link rel="stylesheet" href="style.css" />
     <script type="module" src="main.js" defer></script>
   </head>
-  <body></body>
+  <body>
+    <form>
+      <div class="wrapper">
+        <label for="location">Enter Location Here:</label>
+        <input
+          type="text"
+          pattern="text"
+          placeholder="New York, NY"
+          id="location"
+        />
+        <button type="button">Click Me</button>
+        <!-- added the type so that the
+        form doesn't submit when pushed. -->
+      </div>
+      <h1></h1>
+    </form>
+  </body>
 </html>
